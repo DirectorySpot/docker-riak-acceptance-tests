@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sv start riak || exit 1
+exec /usr/local/bin/riak/setup_users.sh
